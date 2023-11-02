@@ -8,8 +8,6 @@ header {
 .grid {
   display: grid;
   padding: 20px;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
   background-color: rgb(226, 190, 190);
   width: 400px;
   height: 400px;
@@ -17,7 +15,7 @@ header {
   justify-self: center;
 }
 .cell {
-  background-color: aliceblue;
+  background-color: white;
   border: 0.1px solid gray;
 }
 
@@ -28,5 +26,18 @@ header {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
+}
+
+.painted {
+  background-color: black;
+}
+
+.clearAll {
+  background-color: white;
+}
+
+.buttons {
+  margin-top: 30px;
+  text-align: center;
 }
